@@ -3,7 +3,7 @@ name: auto check
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 4 * * *'
+    - cron: '42 1 * * *'
 
 jobs:
   build:
